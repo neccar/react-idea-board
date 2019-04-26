@@ -9,8 +9,9 @@ export default function IdeaForm({ idea, dispatch, id }) {
   };
 
   return (
-    <div className="row">
-      <div className="col-sm-12">
+    <div className="card">
+      <div className="card-body">
+        Idea
         <input
           name="title"
           placeholder="Title"

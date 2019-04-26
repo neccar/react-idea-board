@@ -7,7 +7,12 @@ export default function Header({ state, dispatch }) {
   return (
     <div className="row">
       <div className="col-sm-12">
-        <button onClick={handleAddIdea}>Add Idea</button>
+        <div className="col-sm-8">
+          <h1>Idea board</h1>
+        </div>
+        <div className="col-sm-4">
+          <button onClick={handleAddIdea}>Add Idea</button>
+        </div>
       </div>
     </div>
   );

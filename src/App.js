@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import reducer from "./reducer";
 import Header from "./components/Header";
 import IdeaList from "./components/IdeaList";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const initialState = {
   ideas: []
@@ -12,9 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header" />
-      <Header state={state} dispatch={dispatch} />
-      <IdeaList state={state} dispatch={dispatch} />
+      <div className="container">
+        <header className="App-header" />        
+        <Header state={state} dispatch={dispatch} />
+        <IdeaList state={state} dispatch={dispatch} />
+      </div>
     </div>
   );
 }
