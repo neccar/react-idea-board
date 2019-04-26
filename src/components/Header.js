@@ -11,7 +11,9 @@ export default function Header({ state, dispatch }) {
           <h1>Idea board</h1>
         </div>
         <div className="col-sm-4">
-          <button onClick={handleAddIdea}>Add Idea</button>
+          <button className="btn-primary" onClick={handleAddIdea}>
+            Add Idea
+          </button>
         </div>
       </div>
     </div>
