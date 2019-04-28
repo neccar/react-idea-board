@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40bf97bd1fe467e275a4d00c22691d93",
+    "revision": "1e2f83947c4babc21cb4e9e9e1746867",
     "url": "/react-idea-board/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-idea-board/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "493a92503d922d7a4104",
+    "revision": "cc2d03f0afa3a8bfb2f8",
     "url": "/react-idea-board/static/css/main.795991f2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-idea-board/static/js/2.7bcec877.chunk.js"
   },
   {
-    "revision": "493a92503d922d7a4104",
-    "url": "/react-idea-board/static/js/main.5001143c.chunk.js"
+    "revision": "cc2d03f0afa3a8bfb2f8",
+    "url": "/react-idea-board/static/js/main.9181e76f.chunk.js"
   },
   {
     "revision": "91c04882c6f63caec0e8",
