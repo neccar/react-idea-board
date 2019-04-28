@@ -8,13 +8,20 @@ export default function IdeaForm({ idea, dispatch, id }) {
     });
   };
 
+  const handleDeleteIdea = e => {
+    dispatch({
+      type: "DELETE_IDEA",
+      payload: { id: id }
+    });
+  };
+
   return (
     <div
       className="card bg-info mb-3"
       style={{ maxWidth: "18rem", margin: "10px" }}
     >
       <div className="card-body">
-        <h5 class="card-title">Idea</h5>
+        <h5 className="card-title">Idea</h5>
 
         <input
           name="title"
@@ -31,6 +38,10 @@ export default function IdeaForm({ idea, dispatch, id }) {
           value={idea.description}
           onChange={e => handleChangeIdea(e)}
         />
+        <button className="btn btn-danger" onClick={e => handleDeleteIdea(e)}>
+          {" "}
+          Delete
+        </button>
       </div>
     </div>
   );

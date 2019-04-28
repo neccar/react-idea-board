@@ -13,8 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
-        <header className="App-header" />        
+      <div className="container-fluid">
         <Header state={state} dispatch={dispatch} />
         <IdeaList state={state} dispatch={dispatch} />
       </div>

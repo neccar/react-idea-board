@@ -1,7 +1,7 @@
 {
   "name": "react-idea-board",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://neccar.github.io/react-idea-board",
   "dependencies": {
     "bootstrap": "^4.3.1",

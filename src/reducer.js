@@ -10,7 +10,12 @@ export default function reducer(state, action) {
       var existingIdea = state.ideas[action.payload.id];
       existingIdea[action.payload.name] = action.payload.value;
 
-      return { ...state };
+      return { ...state, ideas: [...state.ideas] };
+
+    case "DELETE_IDEA":
+      state.ideas.splice(action.payload.id, 1);
+
+      return { ...state, ideas: [...state.ideas] };
 
     default:
       return state;
