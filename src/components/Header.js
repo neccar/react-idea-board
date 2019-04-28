@@ -7,7 +7,7 @@ export default function Header({ state, dispatch }) {
   return (
     <div className="navbar navbar-fixed-top">
       <div className="navbar-header pull-left">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="#">
           Idea Board
         </a>
       </div>

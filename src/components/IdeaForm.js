@@ -18,7 +18,7 @@ export default function IdeaForm({ idea, dispatch, id }) {
   return (
     <div
       className="card bg-info mb-3"
-      style={{ maxWidth: "18rem", margin: "10px" }}
+      style={{ maxWidth: "21rem", margin: "10px" }}
     >
       <div className="card-body">
         <h5 className="card-title">Idea</h5>
