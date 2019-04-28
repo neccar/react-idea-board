@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-idea-board/static/css/main.795991f2.chunk.css",
-    "main.js": "/react-idea-board/static/js/main.9181e76f.chunk.js",
-    "main.js.map": "/react-idea-board/static/js/main.9181e76f.chunk.js.map",
+    "main.js": "/react-idea-board/static/js/main.e0c7845c.chunk.js",
+    "main.js.map": "/react-idea-board/static/js/main.e0c7845c.chunk.js.map",
     "runtime~main.js": "/react-idea-board/static/js/runtime~main.f904e2e0.js",
     "runtime~main.js.map": "/react-idea-board/static/js/runtime~main.f904e2e0.js.map",
     "static/css/2.266e55a5.chunk.css": "/react-idea-board/static/css/2.266e55a5.chunk.css",
-    "static/js/2.7bcec877.chunk.js": "/react-idea-board/static/js/2.7bcec877.chunk.js",
-    "static/js/2.7bcec877.chunk.js.map": "/react-idea-board/static/js/2.7bcec877.chunk.js.map",
+    "static/js/2.1d7d9376.chunk.js": "/react-idea-board/static/js/2.1d7d9376.chunk.js",
+    "static/js/2.1d7d9376.chunk.js.map": "/react-idea-board/static/js/2.1d7d9376.chunk.js.map",
     "index.html": "/react-idea-board/index.html",
-    "precache-manifest.6bf407c6938fb77b4bb1d2cb14858ccc.js": "/react-idea-board/precache-manifest.6bf407c6938fb77b4bb1d2cb14858ccc.js",
+    "precache-manifest.4d24eb7e89c76a5039b4fd15e7a4a008.js": "/react-idea-board/precache-manifest.4d24eb7e89c76a5039b4fd15e7a4a008.js",
     "service-worker.js": "/react-idea-board/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/react-idea-board/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.795991f2.chunk.css.map": "/react-idea-board/static/css/main.795991f2.chunk.css.map"
